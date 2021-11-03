@@ -1,0 +1,155 @@
+{
+	"contentrating" : "Everyone",
+	"description" : "一个简单的壁纸",
+	"file" : "index.html",
+	"general" : 
+	{
+		"localization" : 
+		{
+			"en-us" : 
+			{
+				"ui_24" : "24-hour-time",
+				"ui_clockcolor" : "Clock Color",
+				"ui_editdayofweek" : "Edit Day Of Week",
+				"ui_friday" : "Friday",
+				"ui_monday" : "Monday",
+				"ui_moveeffect" : "Move Effect",
+				"ui_saturday" : "Saturday",
+				"ui_showclock" : "Show Clock",
+				"ui_showdayofweek" : "Show Day Of Week",
+				"ui_staticbackground" : "Static Background",
+				"ui_sunday" : "Sunday",
+				"ui_thursday" : "Thursday",
+				"ui_tuesday" : "Tuesday",
+				"ui_wednesday" : "Wednesday"
+			}
+		},
+		"properties" : 
+		{
+			"_24" : 
+			{
+				"condition" : "showclock.value",
+				"order" : 103,
+				"text" : "24小时制",
+				"type" : "bool",
+				"value" : true
+			},
+			"clockcolor" : 
+			{
+				"condition" : "showclock.value",
+				"order" : 104,
+				"text" : "时钟颜色",
+				"type" : "color",
+				"value" : "1 1 1"
+			},
+			"editdayofweek" : 
+			{
+				"condition" : "showdayofweek.value",
+				"order" : 106,
+				"text" : "修改星期文本",
+				"type" : "bool",
+				"value" : false
+			},
+			"friday" : 
+			{
+				"condition" : "editdayofweek.value && showdayofweek.value",
+				"order" : 111,
+				"text" : "周五",
+				"type" : "textinput",
+				"value" : "Friday"
+			},
+			"monday" : 
+			{
+				"condition" : "editdayofweek.value && showdayofweek.value",
+				"order" : 107,
+				"text" : "周一",
+				"type" : "textinput",
+				"value" : "Monday"
+			},
+			"moveeffect" : 
+			{
+				"order" : 101,
+				"text" : "鼠标特效",
+				"type" : "bool",
+				"value" : true
+			},
+			"saturday" : 
+			{
+				"condition" : "editdayofweek.value && showdayofweek.value",
+				"order" : 112,
+				"text" : "周六",
+				"type" : "textinput",
+				"value" : "Saturday"
+			},
+			"schemecolor" : 
+			{
+				"order" : 0,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "0.6784313725490196 0.8470588235294118 0.9019607843137255"
+			},
+			"showclock" : 
+			{
+				"order" : 102,
+				"text" : "显示时钟",
+				"type" : "bool",
+				"value" : true
+			},
+			"showdayofweek" : 
+			{
+				"order" : 105,
+				"text" : "显示星期",
+				"type" : "bool",
+				"value" : true
+			},
+			"staticbackground" : 
+			{
+				"order" : 100,
+				"text" : "背景图片",
+				"type" : "file",
+				"value" : ""
+			},
+			"sunday" : 
+			{
+				"condition" : "editdayofweek.value && showdayofweek.value",
+				"order" : 113,
+				"text" : "周日",
+				"type" : "textinput",
+				"value" : "Sunday"
+			},
+			"thursday" : 
+			{
+				"condition" : "editdayofweek.value && showdayofweek.value",
+				"order" : 110,
+				"text" : "周四",
+				"type" : "textinput",
+				"value" : "Thursday"
+			},
+			"tuesday" : 
+			{
+				"condition" : "editdayofweek.value && showdayofweek.value",
+				"order" : 108,
+				"text" : "周二",
+				"type" : "textinput",
+				"value" : "Tuesday"
+			},
+			"wednesday" : 
+			{
+				"condition" : "editdayofweek.value && showdayofweek.value",
+				"order" : 109,
+				"text" : "周三",
+				"type" : "textinput",
+				"value" : "Wednesday"
+			}
+		}
+	},
+	"monetization" : false,
+	"preview" : "preview.jpg",
+	"tags" : [ "Technology" ],
+	"title" : "Time lapse",
+	"type" : "Web",
+	"version" : 2,
+	"visibility" : "public",
+	"workshopid" : "824548506",
+	"workshopurl" : "steam://url/CommunityFilePage/824548506"
+}
